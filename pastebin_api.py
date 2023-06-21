@@ -48,7 +48,7 @@ def post_new_paste(title, body_text, expiration='N', listed=True):
     return
 
 def main():
-    post_new_paste('Awesome Pate', 'This paste is not useful.\ndelete whenever.', '1H', False)
+    post_new_paste('Awesome Paste', 'This paste is not useful.\ndelete whenever.', '1H', False)
 
 if __name__ == '__main__':
     main()
